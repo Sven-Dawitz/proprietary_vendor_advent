@@ -29,7 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/advent/vega/proprietary/libnvdispmgr_d.so:obj/lib/libnvdispmgr_d.so \
     vendor/advent/vega/proprietary/libnvdispatch_helper.so:obj/lib/libnvdispatch_helper.so \
     vendor/advent/vega/proprietary/libnvomxilclient.so:obj/lib/libnvomxilclient.so \
-    vendor/advent/vega/proprietary/libgps.so:obj/lib/libgps.so
+    vendor/advent/vega/proprietary/libgps.so:obj/lib/libgps.so \
+    vendor/advent/vega/proprietary/libhwmediarecorder.so:obj/lib/libhwmediarecorder.so
 
 # Standard blobs necessary for vega
 PRODUCT_COPY_FILES += \
