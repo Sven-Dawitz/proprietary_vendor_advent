@@ -174,13 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/advent/vega/proprietary/libcamera.so:obj/lib/libcamera.so \
     vendor/advent/vega/proprietary/libnvmm_camera.so:system/lib/libnvmm_camera.so
 
-
-# recovery files for vega
-PRODUCT_COPY_FILES += \
-	vendor/advent/vega/proprietary/recovery:system/bin/recovery \
-	vendor/advent/vega/proprietary/recovery_2:system/bin/recovery_2 \
-	vendor/advent/vega/proprietary/shuttle_mon:system/bin/shuttle_mon
-
 # OMX libs for vega
 PRODUCT_COPY_FILES += \
    vendor/advent/vega/proprietary/libomx_aacdec_sharedlibrary.so:system/lib/libomx_aacdec_sharedlibrary.so \
